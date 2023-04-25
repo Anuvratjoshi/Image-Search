@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(211, 207, 207);
+}
+
+
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  row-gap: 20px;
+
+}
+
+input{
+  border-radius:10px ;
+  width: 40%;
+  padding: 0 6px;
+  /* margin-right: 2rem; */
+}
+.search{
+  border-radius:10px ;
+  margin-left: .4rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+.flickr-image:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+img{
+  /* height: 40vh; */
+  width: 25vw;
+}
+center {
+  margin: 40px 0;
+
+}
+.bookmarked-image{
+  margin:  20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  width: 83%;
+  gap: 30px;
+}
+.bookmarked-image img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
