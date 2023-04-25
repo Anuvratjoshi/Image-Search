@@ -1,3 +1,6 @@
+//Note do npm i and npm i react-router-dom before rumming the app
+
+
 import './App.css';
 import BookmarkedImage from './component/BookmarkedImage';
 import ImageSearch from './component/ImageSearch';
