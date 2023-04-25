@@ -11,7 +11,8 @@ function BookmarkedImage() {
         }).then(res => res.json())
             .then(result => {
                 console.log(result)
-                setBookMarkedImage(result)
+                const images = result.reverse()
+                setBookMarkedImage(images)
             })
     }, [])
     return <>
